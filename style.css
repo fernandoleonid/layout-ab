@@ -37,7 +37,15 @@ header{
 }
 main{
     flex-grow: 1;
-    background-color: pink;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    background-color: plum;
+}
+.destaque{
+    width: 50%;
+    background-color: lightgrey;
 }
 footer{
     height: 100px;
